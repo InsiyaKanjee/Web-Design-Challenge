@@ -1,0 +1,44 @@
+.home-button {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* @media(min-width:360px) {
+  .home-button {
+    width: 100%;
+  }
+} */
+.right-nav-button {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  font-size: 12px;
+
+}
+
+.grey-bg {
+  background-color: lightgray;
+}
+
+.nav-item:hover .nav-link {
+  color: black;
+  background-color: lightgrey; /* add background-color to active links */
+}
+
+@media (max-width: 768px) {
+  .navbar-custom-bg {
+     background-color: lightseagreen;
+   }
+ }
+
+h3 {
+  color: lightseagreen;
+}
+
+h4 {
+  color: lightseagreen;
+}
