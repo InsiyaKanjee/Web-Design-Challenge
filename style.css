@@ -29,10 +29,21 @@
   background-color: lightgrey; /* add background-color to active links */
 }
 
+.main-card {
+  margin: 30px;
+}
+
 @media (max-width: 768px) {
   .navbar-custom-bg {
      background-color: lightseagreen;
    }
+  .grey-bg {
+     background-color: transparent;
+   }
+  .main-card {
+    margin: 30px;
+  }
+  .w-50 {}
  }
 
 h3 {
