@@ -10,7 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Home: Summary</title>
+    <title>Visualizations: Cloudiness</title>
 
 
 </head>
@@ -49,6 +49,7 @@
                         <a class="dropdown-item right-nav-button" href="humidity.html">Humidity</a>
                         <a class="dropdown-item right-nav-button" href="cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item right-nav-button" href="wind_speed.html">Wind Speed</a>
+                        
                     </div>
                 </li>
                 <li class="nav-item">
@@ -64,20 +65,28 @@
         <div class="col-sm-7">
             <div class="card" style="padding: 5px; margin: 30px; margin-right: 0px ">
                 <div class="card-body">
-                    <h3 class="card-title">Summary: Latitude vs. X</h3>
+                    <h3 class="card-title">Summary: Latitude vs. Wind Speed</h3>
                     <hr>
-                    <img src="https://github.com/InsiyaKanjee/Web-Design-Challenge/blob/main/Resources/assets/images/Fig1.png?raw=true"
+                    <img src="https://github.com/InsiyaKanjee/Web-Design-Challenge/blob/main/Resources/assets/images/Fig4.png?raw=true"
                         ALIGN="left" style="max-width: 50%; height: auto;" class="img-fluid logo" alt="...">
 
 
-                    <p class="card-text"></br></br>The purpose of this project was to analyze how weather changes as you
-                        get
-                        closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap
-                        API to assemble a dataset on over 500 cities. </br></br> After assembling the data set, we used
-                        Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
-                        temperature, cloudiness, wind speed, and humidity. This site probides the source data and
-                        visualizations created as part of the analysis, as well as explanations and descriptions of any
-                        trends and correlations witnessed.</p>
+                    <p class="card-text"></br></br>Wind Speed does not seem to have a strong correlation with Latitude,
+                        meaning as one gets closer or further to equator, the levels of wind may be dependant on
+                        other
+                        factors (pressure gradient, height etc) In general, the wind speed increases with height from
+                        the surface to the upper troposphere. There are several reasons that explain this tendency.
+                        First, especially in the middle latitudes, the pressure gradient increases with height.</br></br> A second
+                        reason for the wind speed increasing with height, especially near the ground, is due to surface
+                        friction. Surface objects such as trees, rocks, houses, etc. slow the air as it collides into
+                        them. The influence of this friction is less with height above the ground, thus the wind speed
+                        increases with height.
+
+                    </br></br>A third reason is due to air density. The density of the air is highest at the surface and
+                        decreases with height. A force imparted on air will cause the air to move more easily when the
+                        mass of the air is less. Dense air requires a greater force to move it the same speed as less
+                        dense air. With air density decreasing with height, it is easier to move the less dense air at a
+                        higher wind speed.</p>
                 </div>
             </div>
         </div>
@@ -112,7 +121,7 @@
                         <div class="col-sm-6">
                             <a href="wind_speed.html">
                                 <img src="https://github.com/InsiyaKanjee/Web-Design-Challenge/blob/main/Resources/assets/images/Fig4.png?raw=true"
-                                    class="img-fluid logo" alt="...">
+                                    class="img-fluid logo border border-info" alt="...">
                             </a>
                         </div>
 
